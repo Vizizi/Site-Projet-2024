@@ -6,8 +6,9 @@ img {
     width: 400px;
 }
 body {
+    
     background-color: rgb(217, 217, 217);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Valera", sans-serif;
     margin-top: 0;
     text-align: center;
 }
@@ -35,10 +36,15 @@ body {
     margin: 0;
     
 }
-header , footer {
+header {
     background-color: rgb(30, 30, 30);
-    padding: 20px 20px;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
 .logo_airbnb {
     position : absolute;
     top : 50;
@@ -53,4 +59,51 @@ header , footer {
 a{
     color: rgb(143, 143, 143);
     font-weight: 600;
+}
+body {
+    .varela-regular {
+        font-family: "Varela", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+h1{
+    display: block;
+    position: absolute;
+    top : 1;
+    margin-left: 120px;
+}
+
+header ul {
+    margin-left: 700px;
+    padding : 0;
+    list-style: none;
+}
+
+header ul li  {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.active{
+    border-radius: 8px;
+    background-color: rgb(224, 224, 224);
+}
+
+section{
+    padding : 2em 0em;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    padding: 5em 0em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
 }
