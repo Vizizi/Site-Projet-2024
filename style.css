@@ -1,0 +1,56 @@
+h1 {
+    color : rgb(217, 217, 217)
+}
+img {
+    border : solid 5px black;
+    width: 400px;
+}
+body {
+    background-color: rgb(217, 217, 217);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0;
+    text-align: center;
+}
+#airbnb {
+    color: rgb(25, 25, 25);
+    border-radius: 3px;
+    padding: 10px 12px;
+    font-weight: 600;
+}
+a.extra {
+    color: rgb(25, 25, 25);
+    font-weight: 600;
+
+}
+.logo {
+    position : absolute;
+    top : 0;
+    left : 0;
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+body {
+    margin: 0;
+    
+}
+header , footer {
+    background-color: rgb(30, 30, 30);
+    padding: 20px 20px;
+}
+.logo_airbnb {
+    position : absolute;
+    top : 50;
+    left : 50;
+    border: none;
+    width :50px;
+    height: auto;
+    margin-top: -50px;
+    margin-left: 110px;
+}
+
+a{
+    color: rgb(143, 143, 143);
+    font-weight: 600;
+}
