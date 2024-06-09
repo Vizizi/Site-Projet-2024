@@ -84,13 +84,14 @@ header ul {
 
 header ul li  {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 5px 10px;
     cursor: pointer;
 }
 
 .active{
     border-radius: 8px;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(68, 68, 68);
+    color :rgb(211, 211, 211);
 }
 
 section{
