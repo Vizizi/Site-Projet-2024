@@ -88,11 +88,24 @@ header ul li  {
     cursor: pointer;
 }
 
-.active{
-    border-radius: 8px;
-    background-color: rgb(68, 68, 68);
-    color :rgb(211, 211, 211);
+.active {
+    background-color: rgb(53, 53, 53); /* Couleur de fond */
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding : 10px 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    
 }
+
+.active:hover {
+    background-color: #646464; /* Nouvelle couleur de fond lors du survol */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Ajout d'une ombre portée lors du survol */
+}
+
 
 section{
     padding : 2em 0em;
@@ -111,7 +124,7 @@ footer a {
 }
 
 
-video {
-height: 600px;
-width: auto;
+iframe {
+    height : 480px;
+    width: 854px;
 }
